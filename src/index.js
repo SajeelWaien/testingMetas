@@ -11,10 +11,12 @@ function App() {
     <>
            
        <Router>
+            
       <Switch>
+        <Route path='/' exact render={props => <div > Root
         <Link to='/comp' >Comp1</Link>
         <Link to='/comp1' >Comp2</Link>
-        <Route path='/' exact render={props => <div > Root</div>} />
+        </div>} />
         <Route path='/comp' render={props => <CustomComponent label="Component 1" {...props} />} />
         <Route path='/comp1' render={props => <CustomComponent1 label="Component 2" {...props} />} /> 
       </Switch>
