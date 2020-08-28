@@ -1,4 +1,4 @@
-import React, {  useState } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 import CustomComponent from './custom-component'
 import CustomComponent1 from './custom-component1'
