@@ -11,12 +11,12 @@ const CustomComponent1 = ({ label }) => {
     <div>
       <MetaTags>
         <title>Page 1</title>
-        <meta name="description" content="Some descriptionchange." />
-        <meta property="og:title" content="change" />
-        <meta property="og:image" content="pathchange/to/image.jpg" />
-        <meta property="og:description" content="Somechange description" />
-        <meta property="twitter:description" content="Some change description" />
-        <meta property="twitter:title" content="some change more titile " />
+        <meta name="description" content="Comp1 description." />
+        <meta property="og:title" content="Comp1 change" />
+        <meta property="og:image" content="Comp1 pathchange/to/image.jpg" />
+        <meta property="og:description" content="Comp1 Somechange description" />
+        <meta property="twitter:description" content="Comp1 Some change description" />
+        <meta property="twitter:title" content="Comp1 some change more titile " />
       </MetaTags>
 
       {label}
