@@ -12,9 +12,9 @@ function App() {
            
        <Router>
       <Switch>
-        <Route path='/' render={props => <div > Root</div>}>
-        <Route path='/comp' render={props => <CustomComponent label="Component 1" {...props} />}>
-        <Route path='/comp1' render={props => <CustomComponent1 label="Component 2" {...props} />}> 
+        <Route path='/' render={props => <div > Root</div>} />
+        <Route path='/comp' render={props => <CustomComponent label="Component 1" {...props} />} />
+        <Route path='/comp1' render={props => <CustomComponent1 label="Component 2" {...props} />} /> 
       </Switch>
       </Router>
 
