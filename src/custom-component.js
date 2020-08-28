@@ -6,7 +6,7 @@ const CustomComponent = ({ label }) => {
       `${label} created at ${new Date().getHours()}:${new Date().getMinutes()}:${new Date().getSeconds()}`
     );
     return () => console.log(`${label} destroyed`);
-  }, []);
+  }, [label]);
 
   return <div>{label}</div>;
 };
