@@ -8,7 +8,7 @@ function App() {
   return (
     <>
         <CustomComponent label="Component 1" />
-        <CustomComponent2 label="Component 2" />
+        <CustomComponent1 label="Component 2" />
 
     </>
   );
